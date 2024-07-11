@@ -10,7 +10,7 @@ def string_info(string):
     a.append(string.upper())
     a.append(string.lower())
     count_calls(1)
-    return a
+    return tuple(a)
 
 def is_contains(string_info, is_contains):
     is_contains_2 = []
